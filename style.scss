@@ -6,6 +6,7 @@
 h1 {
   font-family: "Big Shoulders Display", cursive;
   color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
 }
 p {
   font-family: "Lexend Deca", sans-serif;
@@ -75,6 +76,13 @@ p {
     margin-top: 80px;
     padding: 10px 0;
   }
+  .btn:hover {
+  color: hsl(0, 0%, 95%);
+  background: none;
+  border: 1px solid;
+  padding: 9px 0;
+}
+
 }
 
 /*   -----------  mobile view  -----------*/
@@ -104,7 +112,6 @@ p {
       }
       h1 {
         margin-top: 5px;
-        text-transform: uppercase;
       }
       p {
         margin-top: 5px;
@@ -117,9 +124,10 @@ p {
       }
     }
   }
-}
-.btn:hover {
+  .btn:hover {
   color: hsl(0, 0%, 95%);
   background: none;
   border: 1px solid;
+  padding: 9px 0;
+}
 }
